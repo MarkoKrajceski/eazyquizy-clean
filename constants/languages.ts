@@ -7,9 +7,10 @@ export type Language = {
 
 export const LANGUAGES: Language[] = [
   { name: 'English', native: 'English', flag: '🇬🇧', gradient: ['#012169', '#C8102E'] },
-  { name: 'Spanish', native: 'Español', flag: '🇪🇸', gradient: ['#c60b1e', '#f1bf00'] },
-  { name: 'French', native: 'Français', flag: '🇫🇷', gradient: ['#002395', '#ED2939'] },
   { name: 'German', native: 'Deutsch', flag: '🇩🇪', gradient: ['#000000', '#FFCE00'] },
+  { name: 'Spanish', native: 'Español', flag: '🇪🇸', gradient: ['#c60b1e', '#f1bf00'] },
+  { name: 'Macedonian', native: 'Македонски', flag: '🇲🇰', gradient: ['#CE2028', '#F9D616'] },
+  { name: 'French', native: 'Français', flag: '🇫🇷', gradient: ['#002395', '#ED2939'] },
   { name: 'Italian', native: 'Italiano', flag: '🇮🇹', gradient: ['#009246', '#CE2B37'] },
   { name: 'Portuguese', native: 'Português', flag: '🇵🇹', gradient: ['#006600', '#FF0000'] },
   { name: 'Dutch', native: 'Nederlands', flag: '🇳🇱', gradient: ['#AE1C28', '#21468B'] },
@@ -33,6 +34,8 @@ export const LANGUAGES: Language[] = [
   { name: 'Vietnamese', native: 'Tiếng Việt', flag: '🇻🇳', gradient: ['#DA251D', '#FFFF00'] },
   { name: 'Thai', native: 'ภาษาไทย', flag: '🇹🇭', gradient: ['#A51931', '#2D2A4A'] },
   { name: 'Indonesian', native: 'Bahasa Indonesia', flag: '🇮🇩', gradient: ['#CE1126', '#FFFFFF'] },
-  { name: 'Macedonian', native: 'Македонски', flag: '🇲🇰', gradient: ['#CE2028', '#F9D616'] },
   { name: 'Serbian', native: 'Српски', flag: '🇷🇸', gradient: ['#C6363C', '#0C4076'] },
+  { name: 'Croatian', native: 'Hrvatski', flag: '🇭🇷', gradient: ['#FF0000', '#0000FF'] },
+  { name: 'Hebrew', native: 'עברית', flag: '🇮🇱', gradient: ['#0038B8', '#FFFFFF'] },
+  { name: 'Swahili', native: 'Kiswahili', flag: '🇰🇪', gradient: ['#006600', '#CC0001'] },
 ];
